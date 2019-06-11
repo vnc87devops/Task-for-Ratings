@@ -3,5 +3,5 @@ MAINTAINER vnc87devops@gmail.com
 RUN  easy_install pip && pip install requests
 COPY . /src
 EXPOSE 90
-CMD ["python","/src/p.py"]
+CMD ["python","/src/python.py"]
 
